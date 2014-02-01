@@ -1,0 +1,731 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#header_image
+{
+width:100%;
+height:110px;
+}
+#header-image
+{
+width:150px;
+height:150px;
+display:inline-block;
+position:absolute;
+z-index:9999;
+left:38%;
+}
+.site-header
+{
+	position: relative;
+	top: 70px;
+	left: 30px;
+	width: 1239px;
+	padding:0px;
+	margin:0px;
+	background-color:white;
+
+
+}
+#site-header-slider
+{
+top:70px;
+padding:0px;
+margin:0px;
+position:relative;
+	width: 1239px;
+	height: 400px;
+	
+	-webkit-box-shadow: 0 -1px 2px #000;
+	-moz-box-shadow: 0 -1px 2px #000;
+	box-shadow: 0 -1px 2px #000;
+		z-index:100;
+
+}
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+
+
+
+
+.site-footer
+{
+	
+
+	
+	background-color: #333;
+	-webkit-box-shadow: -5px -1px 5px #000;
+	-moz-box-shadow: -5px -1px 5px #000;
+	box-shadow: -5px -1px 5px #000;
+}
+.header-Strip
+{
+	
+	width: 100%;
+	height: 20px;
+	position: relative;
+	
+}
+#Strip-5
+{
+	width: 16.66%;
+	height: 100%;
+	background-color: #d83d3d;
+	float: left;
+}
+
+							
+
+#Strip-4
+{
+	float: left;
+	width: 16.66%;
+	height: 100%;
+	background-color: #f2e575;
+	
+}
+
+							
+
+#Strip-3
+{
+	float: left;
+	width: 16.66%;
+	height: 100%;
+	background-color: #ccd93a;
+}
+
+.site-main
+{
+position:relative;
+left:16.66%;;
+top:150px;
+}
+
+							
+
+#Strip-2
+{
+	float: left;
+	width: 16.66%;
+	height: 100%;
+	background-color: #72d34c;
+}
+
+							
+
+#Strip-1
+{
+	float: left;
+	width: 16.66%;
+	height: 100%;
+	background-color: #a6dce9;
+}
+
+							
+
+#Strip-0
+{
+	float: left;
+	width: 16.66%;
+	height: 100%;
+	background-color: #53c4d1;
+}
+
+.content-area
+{
+	width: 1240px;
+	height: 1574px;
+	position: relative;
+	
+}
+
+div.post-2
+{
+width: 100%;
+	height: 100%;
+	
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	display:inline-block;
+		padding:0px;
+	
+}
+#post-3
+{
+	width: 48%;
+	height: 371px;
+	bottom:0px;
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	
+	position:absolute;
+}
+#post-5
+{
+	width: 48%;
+	height: 371px;
+	bottom:390px;
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	margin-right: 20px;
+	position:absolute;
+}
+
+#post-6
+{
+	width: 48%;
+	height: 371px;
+	bottom:390px;
+	right:0px;
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	margin-left: 20px;
+	position:absolute;
+}
+
+#post-4
+{
+	width: 100%;
+	height: 371px;
+	bottom:0px;
+	right:0px;
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	margin-left: 20px;
+	position:absolute;
+}
+div.post-1
+{
+	width: 100%;
+	height: 100%;
+	
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	display:inline-block;
+		padding:0px;
+
+}
+
+
+    
+h1{
+font-family: "Myriad Pro";
+	font-size: 28px;
+	font-weight: bold;
+	color: #3e3e3e;
+	margin:0px;
+	padding:0px;
+}
+
+@media screen and (max-width: 568px) {
+    
+h1{
+font-family: "Myriad Pro";
+	font-size: 14px;
+	font-weight: bold;
+	color: #3e3e3e;
+	margin:0px;
+	padding:0px;
+}
+}
+.video-player
+{
+	font-family: "Myriad Pro";
+	font-size: 28px;
+	font-weight: bold;
+	color: #3e3e3e;
+	
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	position:relative;
+
+	width:100%;
+	height:400px;
+
+	text-align:center;
+}
+div.post-thumbnail
+{
+	left: 15px;
+	top: 0px;
+
+	display:inline-block;
+}
+div.post-content-index
+{
+width:50%;
+display:inline-block;
+}
+div.post-thumbnail-img
+{
+	width:40%;
+
+	
+    display:inline-block;
+
+
+	
+}
+div.post-thumbnail-img img
+{
+	width:100%;
+		;
+    display:inline-block;
+	vertical-align:baseline;
+
+	
+}
+
+#img-slider .attachment-post-thumbnail
+{
+	left:0px;
+		top: 0px;
+	width: 100%;
+	height: 328px;	
+	position:absolute;
+	
+}
+#related-post
+{
+width: 100%;
+	height: 15%;
+
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	margin-bottom:70px;
+	position: relative;
+		padding:0px;
+		}
+		
+
+div.related-post-thumbnail
+{
+  width:100%;
+		}
+p.related-post-title
+{
+	margin-bottom:10px;
+	margin-left:10px;
+	width:100%;
+position:relative;
+	font-family: 'Love Ya Like A Sister', cursive;	font-size: 18px;
+	font-weight: bold;
+	color: #3e3e3e;
+	overflow:hidden;
+		}
+
+		@media screen and (max-width: 1380px) {
+		.post-title
+{
+	margin-top: 10%;
+	
+			width:100%;
+	height:100%;
+	position:relative;
+	font-family: 'Love Ya Like A Sister', cursive;	font-size: 28px;
+	font-weight: bold;
+	color: #3e3e3e;
+	overflow:hidden;
+}
+
+.post-text
+{
+		position:relative;
+		width:100%;
+		height:100%;
+	
+	margin-top:10%;
+	font-family: 'roboto', sans-serif;
+	font-size: 18px;
+	font-style: regular;
+	color: #3e3e3e;
+	
+}
+}
+@media screen and (max-width: 800px) {
+		.post-title
+{
+	margin-top: 5%;
+	
+			width:100%;
+	height:100%;
+	position:relative;
+	font-family: 'Love Ya Like A Sister', cursive;	font-size: 20px;
+	font-weight: bold;
+	color: #3e3e3e;
+	overflow:hidden;
+}
+
+.post-text
+{
+		position:relative;
+		width:100%;
+		height:100%;
+	
+	margin-top:10%;
+	font-family: 'roboto', sans-serif;
+	font-size: 14px;
+	font-style: regular;
+	color: #3e3e3e;
+	
+}
+}
+@media screen and (max-width: 580px) {
+		.post-title
+{
+	margin-top: 10%;
+	
+			width:100%;
+	height:100%;
+	position:relative;
+	font-family: 'Love Ya Like A Sister', cursive;	font-size: 16px;
+	font-weight: bold;
+	color: #3e3e3e;
+	overflow:hidden;
+}
+
+.post-text
+{
+		position:relative;
+		width:100%;
+		height:100%;
+	
+	margin-top:10%;
+	font-family: 'roboto', sans-serif;
+	font-size: 10px;
+	font-style: regular;
+	color: #3e3e3e;
+	
+}
+}
+
+
+.single-post-title
+{
+	margin:20px 20px 20px 20px;
+		width:100%;
+	text-align:center;
+	position:relative;
+	font-family: 'Love Ya Like A Sister', cursive;	font-size: 28px;
+	font-size: 38px;
+	font-weight: bold;
+	color: #3e3e3e;
+	overflow:hidden;
+}
+
+.single-post-text
+{
+		position:relative;
+		width:100%;
+		top:20px;
+	margin:20px 20px 20px 20px;
+	right:14px;
+	font-family: 'roboto', sans-serif;
+	line-height:23px;
+	font-size: 14px;
+	font-style: normal;
+	letter-spacing:2px;
+	color: #3e3e3e;
+	
+}
+div.read-more 
+{
+
+	padding-right:0px;
+}
+
+button.read-more
+{
+width:100%;
+height:40px;
+margin-top:30px;
+margin-bottom:30px;
+background-color: #333;
+}
+.header
+{
+background-color: #333;
+}
+nav.navigation-menu
+{
+	width: 100%;
+	top:0px;
+	background-color: #333;
+	position:relative;
+	margin-bottom:0px;
+	border-color:inherit;
+}
+.container-fluid .navbar-default .nav-menu 
+{
+	
+	width:100%;
+	
+		
+}
+.container-fluid .navbar-default .nav-menu li 
+{
+	
+	width:15%;
+	background-color: #fff;
+	-webkit-box-shadow: -2px 0 0px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 0px rgba(0,0,0,.5);
+	box-shadow: -2px 0 0px rgba(0,0,0,.5);
+			background-color: #333;
+
+	
+		
+}
+.container-fluid .navbar-default .nav-menu>li >a
+{
+	
+	
+	 color: #Fff;
+		
+		text-decoration:none;
+		font-family: "roboto";
+	font-size: 13px;
+
+		text-align:center;
+		vertical-align:middle;
+		
+}
+/*.container-fluid .navbar-default .nav-menu li:nth-child(3) 
+{
+	margin-right: 8%;
+	width: 12%;
+
+	
+		
+}
+.container-fluid .navbar-default .nav-menu li:nth-child(4) 
+{
+-webkit-box-shadow: 0px 0 0px rgba(0,0,0,.5);
+	-moz-box-shadow: 0px 0 0px rgba(0,0,0,.5);
+	box-shadow: 0px 0 0px rgba(0,0,0,.5);
+	margin-left: 8%;
+		
+}
+.container-fluid .navbar-default .nav-menu li a:hover
+{
+	 color: #F90;
+    background-color: #FFF;
+		
+}
+/*.
+
+#search-text
+{
+position:absolute;
+margin-left:30px;
+}
+
+.site-wrapper
+{
+position:relative;
+width:1300px;
+height:2000px;
+}
+.search-wrappper 
+{
+top:20px;
+right:30px;
+position:relative;
+left:30px;
+}
+
+/*.menu-item-search p input[type="search"]
+{
+width:50%;
+height:25px;
+padding:0px;
+margin:0px;
+
+left:20px;
+position:absolute;
+}*/
+
+#searchbtn {
+  position: absolute;
+  right: 360px;
+  top: 5px;
+  height: 15px;
+  width: 15px;
+  border: 0;
+  cursor: pointer;
+  zoom: 1;
+  filter: alpha(opacity=65);
+  opacity: 0.65;
+  background: transparent url('GeekInverse/images/search.png') top left no-repeat;
+  /* Icon credits to Brightmix http://www.iconfinder.com/icondetails/43272/128/find_loop_magnify_monotone_search_zoom_icon */
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+  
+#img-slider
+{
+
+	position:relative;
+	top:50px;
+	width: 100%;
+	height: 424px;
+	
+}
+
+
+
+@font-face {
+	font-family: roboto;  
+	src: local('Museo300-Regular'), 
+		url("fonts/RobotoSlab-Regular.ttf") format('truetype');  
+	font-weight: normal;  
+}
+
+@font-face {
+	font-family: josefin;  
+	src: local('JosefinSlab-Regular'), 
+		url("fonts/JosefinSlab-Regular.ttf") format('truetype');  
+	font-weight: normal;  
+}
+.menu-search-form
+{
+height:30px;
+width:210px;
+padding:0px;
+margin:0px;
+position:relative;
+}
+
+.post-content-area div 
+{
+vertical-align:top;
+display:inline-block;
+
+}
+
+div.post-content
+{
+text-align:justify;
+ height:100%;
+
+vertical-align:top;
+}
+
+div.sidebar
+{
+background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+}
+.btn-circle.btn-xl {
+  width: 100%;
+  height: 20px;
+  padding:0px;
+    font-size: 12px;
+  border-radius: 35px;
+}
+
+
+div.site-footer 
+{
+
+text-align:center;
+font-family:oswald;
+list-style:none;
+color:#fff;
+text-decoration:none;
+}
+div.site-footer  a
+{
+
+
+font-family:roboto;
+list-style:none;
+color:#fff;
+text-decoration:none;
+}
+.site-footer  a:hover
+{
+color:#E4D3D2;
+
+text-decoration:none;
+}
+.site-footer  li 
+{
+margin-top:15px;
+margin-left:15px;
+text-align:left;
+}
+
+div.page-content
+{
+margin:0px;
+width:100%
+}
+
+.about
+{
+text-align:left;
+}
+
+
+.header-logo
+{
+z-index:9999;
+}
+
+.row .social-icons
+{
+padding-top:10%;
+padding-bottom:10%
+}
+.social-share
+{
+background-color: #fff;
+	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	box-shadow: -2px 0 10px rgba(0,0,0,.5);
+	margin-bottom:70px;
+}
+.container-fluid .infographic 
+{
+overflow:hidden;
+height:50%;
+}
