@@ -30,6 +30,7 @@ get_header(); ?>
 			?>
 			
 		</div>
+		
 		<div class="col-md-3">
 		
 	<aside>
