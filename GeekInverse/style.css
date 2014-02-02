@@ -757,12 +757,18 @@ background-color: #fff;
 {
 max-width: 26%;
 }
+#masonry-loop
+{
+margin: 0 auto;
+  width: auto;
+  }
 
 @media screen and (max-width: 1600px) {
 .masonry-entry{
 
 width:23%;
 background-color: #fff;
+margin-bottom:10px;
 	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	box-shadow: -2px 0 10px rgba(0,0,0,.5);}
@@ -772,6 +778,7 @@ background-color: #fff;
 
 width:33%;
 background-color: #fff;
+margin-bottom:10px;
 	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	box-shadow: -2px 0 10px rgba(0,0,0,.5);}
@@ -781,6 +788,7 @@ background-color: #fff;
 
 width:43%;
 background-color: #fff;
+margin-bottom:10px;
 	-webkit-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	box-shadow: -2px 0 10px rgba(0,0,0,.5);}
@@ -795,3 +803,20 @@ background-color: #fff;
 	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	box-shadow: -2px 0 10px rgba(0,0,0,.5);}
 	}
+	
+.masonry-post-title
+{
+	padding-left:10px;
+	font-family: 'Love Ya Like A Sister', cursive;	font-size: 18px;
+	font-weight: bold;
+	color: #3e3e3e;
+}
+
+.masonry-post-excerpt
+{
+padding-left:10px;
+font-family: 'roboto', sans-serif;
+
+	font-style: regular;
+	color: #3e3e3e;
+}

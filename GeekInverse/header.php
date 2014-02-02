@@ -46,20 +46,31 @@
       $('#masonry-loop').masonry({
 	   itemSelector: '.masonry-entry',
 		 columnWidth: 320,
-		isFitWidth: true	
+		isFitWidth: true,
+		Animated: true		
          
 
         });
 
     });
+	jQuery(document).ready(function ($) {
+$('#header-strip').hover(function(){
+  $('#header-con').slideDown();
+});
+});
 
+jQuery(document).ready(function ($) {
+$('#primary').hover(function(){
+  $('#header-con').slideUp();
+});
+});
 </script>
 
 </script>
 <div id="site-wrapper" class="container-fluid">
 
 <div id="page" class="container-fluid">
-	<div class="container-fluid ">
+	<div class="container-fluid " id="header-con">
 	<div class="row header">
 	
 	<div class="row">
@@ -102,7 +113,7 @@
 
 		
 		
-		<div class="header-Strip">
+		<div id="header-strip" class="header-Strip">
     <div id="Strip-0"></div>
     <div id="Strip-1"></div>
     <div id="Strip-2"></div>

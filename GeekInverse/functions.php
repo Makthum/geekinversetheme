@@ -424,7 +424,7 @@ function register_my_menus() {
 function add_search_to_wp_menu ( $items, $args ) {
 	if( 'Header-nav' === $args -> theme_location ) {
 $items .= '<li class="menu-item-search">';
-$items .= '<form method="get" class="navbar-form navbar-left" action="' . get_bloginfo('home') . '/"><div class="form-group"><input type="text" class="form-control" placeholder="Search"></div></form>';
+$items .= '<form method="get" class="navbar-form navbar-left" action="'.bloginfo('/'). '/"><div class="form-group"><input type="text" class="form-control" placeholder="Search" name="s"></div></form>';
 $items .= '</li>';
 	}
 return $items;

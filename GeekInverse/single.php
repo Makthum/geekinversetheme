@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-	<div class="container-fluid">
+	<div id="primary" class="container-fluid">
 	<div class="row page-content">
 	<div class="col-md-9 post-content">
 	
