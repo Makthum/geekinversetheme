@@ -10,10 +10,11 @@
  */
 
 get_header(); ?>
-
-	<section id="primary" class="content-area">
+	<div class="container-fluid">
+	
+	<section id="primary">
 		<div id="content" class="site-content" role="main">
-
+		
 			<?php if ( have_posts() ) : ?>
 
 			<header class="archive-header">
@@ -27,19 +28,15 @@ get_header(); ?>
 					endif;
 				?>
 			</header><!-- .archive-header -->
-
+	<div id="masonry-loop">
 			<?php
 					// Start the Loop.
-					while ( have_posts() ) : the_post();
-
-					/*
-					 * Include the post format-specific template for the content. If you want to
-					 * use this in a child theme, then include a file called called content-___.php
-					 * (where ___ is the post format) and that will be used instead.
-					 */
-					get_template_part( 'content', get_post_format() );
-
-					endwhile;
+					while ( have_posts() ) : the_post();?>
+					<!--div class="col-md-3 cat-post"-->
+					
+					<?php get_template_part( 'content', 'masonary');?>
+					<!--/div-->
+					<?php endwhile;
 					// Previous/next page navigation.
 					twentyfourteen_paging_nav();
 
@@ -49,9 +46,11 @@ get_header(); ?>
 
 				endif;
 			?>
+			
 		</div><!-- #content -->
 	</section><!-- #primary -->
-
+	</div>
+	</div>
 <?php
 get_sidebar( 'content' );
 get_sidebar();

@@ -89,11 +89,14 @@ while($catquery->have_posts()) : $catquery->the_post();
 		</div>
 		</div>
 		
+		
+		
 		</footer><!-- #colophon -->
 	</div>
 	</div>
 	</div><!-- #page -->
-	
+
+
 	<?php wp_footer(); ?>
 </body>
 </html>

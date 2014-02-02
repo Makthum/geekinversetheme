@@ -616,3 +616,18 @@ function add_class_to_thumbnail($thumb) {
  $thumb = str_replace('attachment-post-Image wp-post-image', 'img-responsive', $thumb);
 return $thumb;
 }
+
+wp_enqueue_script('jquery');
+
+wp_register_script('jquery_masonry', get_template_directory_uri(). '/js/masonry.pkgd.min.js', array('jquery'), '2.0.110526' );
+
+wp_enqueue_script('jquery_masonry');
+
+
+
+
+ 
+
+
+
+

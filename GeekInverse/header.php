@@ -32,38 +32,55 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-	
+	<script src="/wp-content/themes/GeekInverse/js/masonry.pkgd.min.js"></script>
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 
+<script>
+
+
+  jQuery(document).ready(function($){
+
+      $('#masonry-loop').masonry({
+	   itemSelector: '.masonry-entry',
+		 columnWidth: 320,
+		isFitWidth: true	
+         
+
+        });
+
+    });
+
+</script>
+
+</script>
 <div id="site-wrapper" class="container-fluid">
 
 <div id="page" class="container-fluid">
 	<div class="container-fluid ">
-	<div class="row-fluid header">
-	<div id="header_image">
+	<div class="row header">
 	
-	
-		<div class="col-md-6 col-md-offset-4 header-logo">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			
-		<img class="img-responsive img-circle" src=" http://localhost/wp-content/uploads/2014/01/cropped-33849605aba749efb3bef9cad833c03051f9c6e3c7f3ac80-stocklarge3.jpg">
-		</img>
-		</a>
-	
-	
-	</div>
-	</div>
-	<div class="row-fluid">
-	<div class="span12">
+	<div class="row">
+	<div class="col-md-12">
 	
 
 		
 	
-<nav id="header-navigation" class="navbar navbar-default navigation-menu" role="navigation">
- <div class="container">
+<nav id="header-navigation" class="navbar navbar-default  navigation-menu" role="navigation">
+ <div class="container-fluid">
+ <div class="row">
+		<div class="col-lg-1">
+		
+		
+            <a class="navbar-brand" href="<?php echo home_url(); ?>">
+               <img class="img-responsive img-circle header-logo" src=" http://localhost/wp-content/uploads/2014/01/cropped-33849605aba749efb3bef9cad833c03051f9c6e3c7f3ac80-stocklarge3.jpg">
+		</img>
+            </a>
+			</div>
+			
+			<div class="col-md-11">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-md1-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -72,18 +89,16 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                GeekInverse
-            </a>
         </div>
 				<?php wp_nav_menu( array( 'theme_location' => 'Header-nav', 'menu_class' => 'nav-menu nav navbar-nav navbar-inner','container'=>'div','container_class'=>'collapse navbar-collapse navbar-md1-collapse' ) ); ?>
 				
 			</nav>	
-	
+		</div>
 			</div>
 		</div>
-			<div class="row-fluid">	
-			<div class="span12">
+		</div>
+			<div class="row">	
+			<div class="col-md-12">
 
 		
 		
