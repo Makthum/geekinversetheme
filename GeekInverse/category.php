@@ -28,6 +28,7 @@ get_header(); ?>
 					endif;
 				?>
 			</header><!-- .archive-header -->
+			<div id="masonry-wrapper">
 	<div id="masonry-loop">
 			<?php
 					// Start the Loop.
@@ -46,7 +47,7 @@ get_header(); ?>
 
 				endif;
 			?>
-			
+			</div>
 		</div><!-- #content -->
 	</section><!-- #primary -->
 	</div>

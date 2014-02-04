@@ -43,16 +43,19 @@
 
   jQuery(document).ready(function($){
 
-      $('#masonry-loop').masonry({
+    //  $('#masonry-loop').imagesLoaded( function() {
+$('#masonry-loop').masonry({
 	   itemSelector: '.masonry-entry',
-		 columnWidth: 320,
+		gutter:1,
 		isFitWidth: true,
 		Animated: true		
          
 
-        });
+        }).imagesLoaded(function() {
+   $('#masonry-loop').masonry('reloadItems')
 
     });
+	});
 	jQuery(document).ready(function ($) {
 $('#header-strip').hover(function(){
   $('#header-con').slideDown();

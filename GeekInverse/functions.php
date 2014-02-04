@@ -622,9 +622,20 @@ wp_enqueue_script('jquery');
 wp_register_script('jquery_masonry', get_template_directory_uri(). '/js/masonry.pkgd.min.js', array('jquery'), '2.0.110526' );
 
 wp_enqueue_script('jquery_masonry');
+wp_enqueue_script('imagesLoaded', get_template_directory_uri().'/js/imagesloaded.pkgd.min.js', false, null, true);
 
+function current_jquery($version) {
+        global $wp_scripts;
+        if ( ( version_compare($version, $wp_scripts -> registered[jquery] -> ver) == 1 ) && !is_admin() ) {
+                wp_deregister_script('jquery'); 
 
+                wp_register_script('jquery',
+                        'http://ajax.googleapis.com/ajax/libs/jquery/'.$version.'/jquery.min.js',
+                        false, $version);
+        }
+}
 
+add_action( 'wp_head', current_jquery( '2.1.0' ) ); // change number to latest version
 
  
 

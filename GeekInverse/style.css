@@ -783,7 +783,7 @@ margin-bottom:10px;
 	-moz-box-shadow: -2px 0 10px rgba(0,0,0,.5);
 	box-shadow: -2px 0 10px rgba(0,0,0,.5);}
 	}
-	@media screen and (max-width: 760px) {
+	@media screen and (max-width: 940px) {
 .masonry-entry{
 
 width:43%;
@@ -820,3 +820,4 @@ font-family: 'roboto', sans-serif;
 	font-style: regular;
 	color: #3e3e3e;
 }
+
