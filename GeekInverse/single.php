@@ -18,7 +18,7 @@ get_header(); ?>
 				while ( have_posts() ) : the_post();?>
 
 					
-					<div class="single-post-title"><?php the_title();?> </div>
+					<div class="single-post-title"><h1><?php the_title();?> </h1></div>
 	<div class="single-post-text"><p>
 	<?php the_content(); ?></p></div>
 	
@@ -37,14 +37,14 @@ get_header(); ?>
 
 <div class="row social-share">
 	<div class="col-md-4 social-icons">
-<a href="javascript:;" onclick="window.open('http://www.facebook.com/share.php?u=<?php the_permalink(); ?>','facebook share','resizable=yes,width=700,height=500,scrollbars=yes,status=yes')"><img alt="facebook" src="http://localhost/wp-content/uploads/2014/01/facebook500-e1391138818728.png"></a>
+<a href="javascript:;" onclick="window.open('http://www.facebook.com/share.php?u=<?php the_permalink(); ?>','facebook share','resizable=yes,width=700,height=500,scrollbars=yes,status=yes')"><img alt="facebook"  src="<?php bloginfo('template_url'); ?>/images/twitter.jpg"></a>
 </div>
 <div class="col-md-4 social-icons">
-  <a href="javascript:;" onclick="window.open('https://plus.google.com/share?url=<?php the_permalink(); ?>','GooglePlus share','resizable=yes,width=700,height=500,scrollbars=yes,status=yes')"><img alt="twitter" src="http://localhost/wp-content/uploads/2014/01/googleplus-revised-e1391138857754.png"/></a>
+  <a href="javascript:;" onclick="window.open('https://plus.google.com/share?url=<?php the_permalink(); ?>','GooglePlus share','resizable=yes,width=700,height=500,scrollbars=yes,status=yes')"><img alt="twitter" src="<?php bloginfo('template_url'); ?>/images/facebook.jpg"/></a>
   
   </div>
   <div class="col-md-4 social-icons">
-            <a href="javascript:;" onclick="window.open('http://twitter.com/home?status=<?php the_permalink(); ?>','twitter share','resizable=yes,width=700,height=500,scrollbars=yes,status=yes')"><img alt="twitter" src="http://localhost/wp-content/uploads/2014/01/twitter-e1391138737778.png"/></a>
+            <a href="javascript:;" onclick="window.open('http://twitter.com/home?status=<?php the_permalink(); ?>','twitter share','resizable=yes,width=700,height=500,scrollbars=yes,status=yes')"><img alt="twitter" src="<?php bloginfo('template_url'); ?>/images/google+.jpg"/></a>
 	<!-- Facebook -->
 	</div>
 	</div>

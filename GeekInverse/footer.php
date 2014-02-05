@@ -71,21 +71,18 @@ while($catquery->have_posts()) : $catquery->the_post();
 		<div class="row social-icon">
 		<div class="col-md-12">
 		<a href="./About"><div class="col-md-3">
-		<img src="http://localhost/wp-content/uploads/2014/01/email-e1390779382585.png" class="img-responsive"></img>
+		<img src="<?php bloginfo('template_url'); ?>/images/you_tube.jpg" class="img-responsive"></img>
 		</div></a>
 		
 		<a href="./About"><div class="col-md-3">
-		<img src="http://localhost/wp-content/uploads/2014/01/facebook500-e1390779189734.png" class="img-responsive"></img>
-		</div></a>
+<img src="<?php bloginfo('template_url'); ?>/images/twitter.jpg" class="img-responsive"></img>		</div></a>
 		
 		
 		<a href="./About"><div class="col-md-3">
-		<img src="http://localhost/wp-content/uploads/2014/01/twitter-e1390779164688.png" class="img-responsive"></img>
-		</div></a>
+<img src="<?php bloginfo('template_url'); ?>/images/facebook.jpg" class="img-responsive"></img>		</div></a>
 		
 		<a href="./About"><div class="col-md-3">
-		<img src="http://localhost/wp-content/uploads/2014/01/googleplus-revised-e1390779217235.png" class="img-responsive"></img>
-		</div></a>
+<img src="<?php bloginfo('template_url'); ?>/images/google+.jpg" class="img-responsive"></img>		</div></a>
 		</div>
 		</div>
 		

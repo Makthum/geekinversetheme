@@ -13,7 +13,7 @@ get_header(); ?>
 	<div class="container-fluid">
 	
 	<section id="primary">
-		<div id="content" class="site-content" role="main">
+		<div id="content" class="site-content post-content" role="main">
 		
 			<?php if ( have_posts() ) : ?>
 

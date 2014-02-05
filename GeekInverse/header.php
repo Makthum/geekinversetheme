@@ -24,7 +24,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link href="../wp-content/themes/geekinverse/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link href="../wp-content/themes/geekinverse/css/animations.css" rel="stylesheet">
-
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
