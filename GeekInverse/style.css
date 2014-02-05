@@ -648,7 +648,8 @@ div.post-content
 {
 text-align:justify;
  height:100%;
-
+padding-left:7%;
+padding-right:7%;
 vertical-align:top;
 }
 
@@ -820,4 +821,6 @@ font-family: 'roboto', sans-serif;
 	font-style: regular;
 	color: #3e3e3e;
 }
+
+
 
