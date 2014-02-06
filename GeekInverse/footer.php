@@ -18,17 +18,17 @@
 		<div class="row site-footer">
 		<footer id="colophon" >
 		
-	<div class="col-md-8">
+	<div class="col-sm-8">
 		<div class="row">
-		<div class="col-md-4 recent-post">
+		<div class="col-sm-4 recent-post">
 		Recent Posts
 		<?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
 		</div>
-		<div class="col-md-4">
+		<div class="col-sm-4">
 		Featured Open Source
 		</div>
 		
-		<div class="col-md-4">
+		<div class="col-sm-4">
 		Featured Videos
 		<?php
 		$args = array(
@@ -46,10 +46,10 @@ while($catquery->have_posts()) : $catquery->the_post();
 		</div>
 		</div>
 		</div>
-		<div class="col-md-4 about">
+		<div class="col-sm-4 about">
 		<div class="row">
 		
-		<div class="col-md-7">
+		<div class="col-sm-7">
 		<h1> GeekInverse</h1>
 		Mohamed Makthum<br>
 
@@ -61,7 +61,7 @@ while($catquery->have_posts()) : $catquery->the_post();
 	
 		</div>
 		
-		<div class="col-md-5 footer-logo">
+		<div class="col-xs-5 footer-logo">
 		<img class="img-responsive img-circle" src=" http://localhost/wp-content/uploads/2014/01/cropped-33849605aba749efb3bef9cad833c03051f9c6e3c7f3ac80-stocklarge3.jpg">
 		</img>
 		
@@ -69,20 +69,20 @@ while($catquery->have_posts()) : $catquery->the_post();
 		</div>
 		
 		<div class="row social-icon">
-		<div class="col-md-12">
-		<a href="./About"><div class="col-md-3">
-		<img src="<?php bloginfo('template_url'); ?>/images/you_tube.jpg" class="img-responsive"></img>
+		<div class="col-xs-12">
+		<a href="./About"><div class="col-xs-3">
+		<img src="<?php bloginfo('template_url'); ?>/images/footer_email.png" class="img-responsive"></img>
 		</div></a>
 		
-		<a href="./About"><div class="col-md-3">
-<img src="<?php bloginfo('template_url'); ?>/images/twitter.jpg" class="img-responsive"></img>		</div></a>
+		<a href="./About"><div class="col-xs-3">
+<img src="<?php bloginfo('template_url'); ?>/images/footer_twitter.png" class="img-responsive"></img>		</div></a>
 		
 		
-		<a href="./About"><div class="col-md-3">
-<img src="<?php bloginfo('template_url'); ?>/images/facebook.jpg" class="img-responsive"></img>		</div></a>
+		<a href="./About"><div class="col-xs-3">
+<img src="<?php bloginfo('template_url'); ?>/images/footer_facebook.png" class="img-responsive"></img>		</div></a>
 		
-		<a href="./About"><div class="col-md-3">
-<img src="<?php bloginfo('template_url'); ?>/images/google+.jpg" class="img-responsive"></img>		</div></a>
+		<a href="./About"><div class="col-xs-3">
+<img src="<?php bloginfo('template_url'); ?>/images/footer_google.png" class="img-responsive"></img>		</div></a>
 		</div>
 		</div>
 		

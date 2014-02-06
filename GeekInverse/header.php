@@ -77,7 +77,7 @@ $('#primary').hover(function(){
 	<div class="row header">
 	
 	<div class="row">
-	<div class="col-md-12">
+	<div class="col-xs-12">
 	
 
 		
@@ -85,7 +85,7 @@ $('#primary').hover(function(){
 <nav id="header-navigation" class="navbar navbar-default  navigation-menu" role="navigation">
  <div class="container-fluid">
  <div class="row">
-		<div class="col-lg-1">
+		<div class="col-xs-1">
 		
 		
             <a class="navbar-brand" href="<?php echo home_url(); ?>">
@@ -94,9 +94,9 @@ $('#primary').hover(function(){
             </a>
 			</div>
 			
-			<div class="col-md-11">
+			<div class="col-xs-11">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-md1-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -104,7 +104,7 @@ $('#primary').hover(function(){
             </button>
 
         </div>
-				<?php wp_nav_menu( array( 'theme_location' => 'Header-nav', 'menu_class' => 'nav-menu nav navbar-nav navbar-inner','container'=>'div','container_class'=>'collapse navbar-collapse navbar-md1-collapse' ) ); ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'Header-nav', 'menu_class' => 'nav-menu nav navbar-nav navbar-inner','container'=>'div','container_class'=>'collapse navbar-collapse' ) ); ?>
 				
 			</nav>	
 		</div>
@@ -112,7 +112,7 @@ $('#primary').hover(function(){
 		</div>
 		</div>
 			<div class="row">	
-			<div class="col-md-12">
+			<div class="col-xs-12">
 
 		
 		
