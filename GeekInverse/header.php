@@ -22,8 +22,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link href="../wp-content/themes/geekinverse/bootstrap/css/bootstrap.css" rel="stylesheet">
-		<link href="../wp-content/themes/geekinverse/css/animations.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="<?php echo get_template_directory_uri(); ?>/css/animations.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
@@ -39,7 +39,7 @@
 <body <?php body_class(); ?>>
 
 <script>
-
+	
 
   jQuery(document).ready(function($){
 
@@ -57,14 +57,39 @@ $('#masonry-loop').masonry({
     });
 	});
 	jQuery(document).ready(function ($) {
-$('#header-strip').hover(function(){
+$('#Strip-2-ex').click(function(){
   $('#header-con').slideDown();
+  $('.header-Strip').css('height','20px');
+   $('#header-strip').show();
+  $('#header-strip-ex').hide();
 });
 });
 
 jQuery(document).ready(function ($) {
-$('#primary').hover(function(){
+$('.single-post-text').hover(function(){
+ $('.header-Strip').css('height','30px');
+ 
   $('#header-con').slideUp();
+  $('#header-strip').hide();
+  $('#header-strip-ex').show();
+});
+});
+
+
+jQuery(document).ready(function ($) {
+$('#Strip-5-ex').click(function(){
+$('#sidebar').slideToggle("fast", function()
+{
+if($('#sidebar').is(':visible')){
+$('.single-post-entry').removeClass("col-xs-12").addClass("col-xs-9");
+$('#Strip-5-ex').text("Hide Sidebar");
+}
+else
+{
+$('.single-post-entry').removeClass("col-xs-9").addClass("col-xs-12");
+$('#Strip-5-ex').text("Show Sidebar");
+}
+});
 });
 });
 </script>
@@ -124,6 +149,16 @@ $('#primary').hover(function(){
     <div id="Strip-4"></div>
     <div id="Strip-5"></div>
     </div>
+		<div id="header-strip-ex" class="header-Strip">
+    <div id="Strip-0-ex"><a> Home </a></div>
+    <div id="Strip-1-ex"></div>
+    <div id="Strip-2-ex"><span class="glyphicon glyphicon-chevron-up"></span>    Show  Header <span class="glyphicon glyphicon-chevron-up"></span></div> 
+	                       		
+	<div id="Strip-3-ex"></div>
+    <div id="Strip-4-ex"></div>
+    <div id="Strip-5-ex"><a>Hide Sidebar </a></div>
+    </div>
+	
 	</div>
 	</div>
 	<!-- #masthead -->

@@ -30,12 +30,12 @@ get_header(); ?>
 while ( have_posts() ) : the_post() ?>
 	<?php $post_counter++; $ids[] = $post->ID;  ?>
 	<div class="col-md-6">
-	<div class="post-<?php echo $post_counter; ?>"> 
+	<div class="post"> 
 	
 	<div class="post-thumbnail-img">
     <?php the_post_thumbnail("post-Image");?>
     </div>
-	<div class="post-content-index">
+	<div class="post-contents">
 	<div class="post-title"><?php the_title();?> </div>
 	<div class="post-text"><p>
 	<?php the_excerpt(); ?></p></div>
@@ -62,10 +62,10 @@ while ( have_posts() ) : the_post() ?>
 				?>
 					
 					<div class="video-player">
-					<h1><?php the_title() ?></h1>
+					
 						<?php the_content();
 							
-							$the_video_output = getFeaturedVideo($post->ID, 680, 350);
+							$the_video_output = getFeaturedVideo($post->ID);
 							echo $the_video_output;
 							
 							?>
@@ -94,12 +94,12 @@ while ( have_posts() ) : the_post() ?>
 while ( have_posts() ) : the_post() ?>
 	<?php $post_counter++;  ?>
 	<div class="col-md-6">
-	<div class="post-<?php echo $post_counter; ?>"> 
+	<div class="post"> 
 	
 	<div class="post-thumbnail-img">
     <?php the_post_thumbnail("post-Image");?>
     </div>
-	<div class="post-content-index">
+	<div class="post-contents">
 	<div class="post-title"><?php the_title();?> </div>
 	<div class="post-text"><p>
 	<?php the_excerpt(); ?></p></div>

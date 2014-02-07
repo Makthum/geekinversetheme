@@ -538,15 +538,15 @@ function featuredVideo_inner_custom_box( $post ) {
     echo '<input type="text" id="featuredVideoURL_field" name="featuredVideoURL_field" value="'.get_post_meta($post->ID, 'featuredVideoURL', true).'" style="width: 100%;" />';
 }
 
-function getFeaturedVideo($post_id, $width = 680, $height = 360) {
+function getFeaturedVideo($post_id, $width = 420, $height = 315) {
     $featuredVideoURL = get_post_meta($post_id, 'featuredVideoURL', true);
  
     preg_match('%(?:youtube\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', $featuredVideoURL, $youTubeMatch);
  
     if ($youTubeMatch[1])
         return '<iframe width="'.$width.'" height="'.$height.'" src="http://ww'.
-               'w.youtube.com/embed/'.$youTubeMatch[1].'?rel=0&showinfo=0&cont'.
-               'rols=2&autoplay=0&modestbranding=1" frameborder="1" allowfulls'.
+               'w.youtube.com/embed/'.$youTubeMatch[1].'?rel=0&showinfo=1&cont'.
+               'rols=1&autoplay=0&modestbranding=1" frameborder="0" allowfulls'.
                'creen ></iframe>';
     else
         return null;

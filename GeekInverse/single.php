@@ -9,8 +9,8 @@
 
 get_header(); ?>
 	<div id="primary" class="container-fluid">
-	<div class="row page-content">
-	<div class="col-md-9 post-content">
+	<div class="row single-post-container">
+	<div class="col-xs-9 single-post-entry">
 	
 		
 			<?php
@@ -31,7 +31,7 @@ get_header(); ?>
 			
 		</div>
 		
-		<div class="col-md-3">
+		<div class="col-md-3" id="sidebar">
 		
 	<aside>
 
